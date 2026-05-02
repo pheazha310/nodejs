@@ -1,18 +1,20 @@
 {
+  "name": "homework_node",
+  "version": "1.0.0",
+  "description": "Node.js MVC project",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
   },
-  "name": "homework_node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "license": "ISC"
 }
