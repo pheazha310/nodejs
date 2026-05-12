@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS leave_management (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  employee_name TEXT NOT NULL,
+  leave_type TEXT NOT NULL,
+  start_date TEXT NOT NULL,
+  end_date TEXT NOT NULL,
+  reason TEXT,
+  status TEXT NOT NULL DEFAULT 'pending',
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
